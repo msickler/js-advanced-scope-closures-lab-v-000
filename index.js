@@ -6,6 +6,11 @@ function produceDrivingRange(blockRange) {
     } else {
       return `within range by ${blockRange - distance}`
     }
-    
+  }
+}
+
+function produceTipCalculator(tip) {
+  return function(total) {
+    return tip * total 
   }
 }
